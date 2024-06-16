@@ -4,7 +4,7 @@
   "description": "Your minimalist task manager.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/WavyWare/Minimalis/issues"
   },
-  "homepage": "https://github.com/WavyWare/Minimalis#readme"
+  "homepage": "https://github.com/WavyWare/Minimalis#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
 }
